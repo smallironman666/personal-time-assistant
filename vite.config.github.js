@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // GitHub Pages deployment config
 export default defineConfig({
   plugins: [react()],
-  base: '/personal-time-assistant/',  // GitHub Pages需要这个路径
+  base: '/',  // GitHub Pages需要这个路径
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
